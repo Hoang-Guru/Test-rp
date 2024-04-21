@@ -19,7 +19,7 @@ env:
   ECR_REPOSITORY: nodejs-app
   ECS_SERVICE: test-for-nodejsapp
   ECS_CLUSTER: ecs-cluster-job
-  ECS_TASK_DEFINITION: nodejs-app
+  ECS_TASK_DEFINITION: nodejs-app.json
   # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: nodejs-app
 
